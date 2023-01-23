@@ -13,6 +13,30 @@
 		D7E0FA54297B28EE00F8D9A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E0FA53297B28EE00F8D9A1 /* Assets.xcassets */; };
 		D7E0FA57297B28EE00F8D9A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0FA55297B28EE00F8D9A1 /* LaunchScreen.storyboard */; };
 		D7E0FA81297C626600F8D9A1 /* GeneralTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA80297C626600F8D9A1 /* GeneralTabBarController.swift */; };
+		D7E0FA84297D1F4A00F8D9A1 /* VerificationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA83297D1F4A00F8D9A1 /* VerificationContainerView.swift */; };
+		D7E0FA87297D207500F8D9A1 /* VerificationContainerView+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA86297D207500F8D9A1 /* VerificationContainerView+Timer.swift */; };
+		D7E0FA89297D20B300F8D9A1 /* VerificationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA88297D20B300F8D9A1 /* VerificationCodeController.swift */; };
+		D7E0FA90297D22CB00F8D9A1 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7E0FA8F297D22CB00F8D9A1 /* CallingCodes.plist */; };
+		D7E0FA93297D22E200F8D9A1 /* CountriesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA92297D22E200F8D9A1 /* CountriesFetcher.swift */; };
+		D7E0FA96297D231700F8D9A1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA95297D231700F8D9A1 /* Country.swift */; };
+		D7E0FA99297D240000F8D9A1 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA98297D240000F8D9A1 /* CountriesTableViewCell.swift */; };
+		D7E0FA9B297D246100F8D9A1 /* PhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA9A297D246000F8D9A1 /* PhoneNumberController.swift */; };
+		D7E0FA9D297D246D00F8D9A1 /* PhoneNumberContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA9C297D246D00F8D9A1 /* PhoneNumberContainerView.swift */; };
+		D7E0FAA0297D263B00F8D9A1 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FA9F297D263B00F8D9A1 /* UserProfileController.swift */; };
+		D7E0FAA2297D273F00F8D9A1 /* UserProfileContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAA1297D273F00F8D9A1 /* UserProfileContainerView.swift */; };
+		D7E0FAA4297D275A00F8D9A1 /* UserProfileController+keyboardHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAA3297D275A00F8D9A1 /* UserProfileController+keyboardHandlers.swift */; };
+		D7E0FAA6297D276F00F8D9A1 /* UserProfileAvatarOpenerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAA5297D276F00F8D9A1 /* UserProfileAvatarOpenerDelegate.swift */; };
+		D7E0FAA8297D278200F8D9A1 /* UserProfileDataDatabaseUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAA7297D278200F8D9A1 /* UserProfileDataDatabaseUpdater.swift */; };
+		D7E0FAAA297D279C00F8D9A1 /* UserExistenceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAA9297D279C00F8D9A1 /* UserExistenceChecker.swift */; };
+		D7E0FAAE297D286A00F8D9A1 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAAD297D286A00F8D9A1 /* ThemeManager.swift */; };
+		D7E0FAB1297D28AD00F8D9A1 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAB0297D28AD00F8D9A1 /* UserDefaultsManager.swift */; };
+		D7E0FAB5297D6DDB00F8D9A1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAB4297D6DDB00F8D9A1 /* UIView+Extension.swift */; };
+		D7E0FAB7297D6DF300F8D9A1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAB6297D6DF300F8D9A1 /* String+Extension.swift */; };
+		D7E0FAB9297D71BF00F8D9A1 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAB8297D71BF00F8D9A1 /* TextField+Extension.swift */; };
+		D7E0FABC297E6E8C00F8D9A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7E0FABE297E6E8C00F8D9A1 /* Localizable.strings */; };
+		D7E0FAC1297E73E800F8D9A1 /* Label+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAC0297E73E800F8D9A1 /* Label+Extension.swift */; };
+		D7E0FAC3297E7B5100F8D9A1 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAC2297E7B5100F8D9A1 /* GlobalVariables.swift */; };
+		D7E0FAC5297E7DF900F8D9A1 /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FAC4297E7DF900F8D9A1 /* ImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +48,31 @@
 		D7E0FA56297B28EE00F8D9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7E0FA58297B28EE00F8D9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E0FA80297C626600F8D9A1 /* GeneralTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTabBarController.swift; sourceTree = "<group>"; };
+		D7E0FA83297D1F4A00F8D9A1 /* VerificationContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationContainerView.swift; sourceTree = "<group>"; };
+		D7E0FA86297D207500F8D9A1 /* VerificationContainerView+Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerificationContainerView+Timer.swift"; sourceTree = "<group>"; };
+		D7E0FA88297D20B300F8D9A1 /* VerificationCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeController.swift; sourceTree = "<group>"; };
+		D7E0FA8F297D22CB00F8D9A1 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
+		D7E0FA92297D22E200F8D9A1 /* CountriesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesFetcher.swift; sourceTree = "<group>"; };
+		D7E0FA95297D231700F8D9A1 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		D7E0FA98297D240000F8D9A1 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		D7E0FA9A297D246000F8D9A1 /* PhoneNumberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberController.swift; sourceTree = "<group>"; };
+		D7E0FA9C297D246D00F8D9A1 /* PhoneNumberContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberContainerView.swift; sourceTree = "<group>"; };
+		D7E0FA9F297D263B00F8D9A1 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		D7E0FAA1297D273F00F8D9A1 /* UserProfileContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileContainerView.swift; sourceTree = "<group>"; };
+		D7E0FAA3297D275A00F8D9A1 /* UserProfileController+keyboardHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfileController+keyboardHandlers.swift"; sourceTree = "<group>"; };
+		D7E0FAA5297D276F00F8D9A1 /* UserProfileAvatarOpenerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileAvatarOpenerDelegate.swift; sourceTree = "<group>"; };
+		D7E0FAA7297D278200F8D9A1 /* UserProfileDataDatabaseUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDataDatabaseUpdater.swift; sourceTree = "<group>"; };
+		D7E0FAA9297D279C00F8D9A1 /* UserExistenceChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExistenceChecker.swift; sourceTree = "<group>"; };
+		D7E0FAAD297D286A00F8D9A1 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		D7E0FAB0297D28AD00F8D9A1 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		D7E0FAB4297D6DDB00F8D9A1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D7E0FAB6297D6DF300F8D9A1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D7E0FAB8297D71BF00F8D9A1 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		D7E0FABD297E6E8C00F8D9A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D7E0FABF297E6EA200F8D9A1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D7E0FAC0297E73E800F8D9A1 /* Label+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Extension.swift"; sourceTree = "<group>"; };
+		D7E0FAC2297E7B5100F8D9A1 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		D7E0FAC4297E7DF900F8D9A1 /* ImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +105,15 @@
 		D7E0FA49297B28EC00F8D9A1 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				D7E0FAB2297D6DB500F8D9A1 /* Helpers */,
 				D7E0FA7F297C622500F8D9A1 /* AppDelegate */,
+				D7E0FA9E297D261B00F8D9A1 /* UserProfile */,
 				D7E0FA7E297C61FF00F8D9A1 /* Authentication */,
 				D7E0FA53297B28EE00F8D9A1 /* Assets.xcassets */,
 				D7E0FA55297B28EE00F8D9A1 /* LaunchScreen.storyboard */,
 				D7E0FA58297B28EE00F8D9A1 /* Info.plist */,
+				D7E0FABE297E6E8C00F8D9A1 /* Localizable.strings */,
+				D7E0FAAB297D284F00F8D9A1 /* Supporting Files */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -68,6 +121,7 @@
 		D7E0FA7E297C61FF00F8D9A1 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				D7E0FA8B297D225900F8D9A1 /* PhoneAuthentication */,
 				D7E0FA4E297B28EC00F8D9A1 /* AuthorizationVC.swift */,
 			);
 			path = Authentication;
@@ -89,6 +143,121 @@
 				D7E0FA80297C626600F8D9A1 /* GeneralTabBarController.swift */,
 			);
 			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		D7E0FA85297D206400F8D9A1 /* VerificationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA88297D20B300F8D9A1 /* VerificationCodeController.swift */,
+				D7E0FA83297D1F4A00F8D9A1 /* VerificationContainerView.swift */,
+				D7E0FA86297D207500F8D9A1 /* VerificationContainerView+Timer.swift */,
+			);
+			path = VerificationControllers;
+			sourceTree = "<group>";
+		};
+		D7E0FA8B297D225900F8D9A1 /* PhoneAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA85297D206400F8D9A1 /* VerificationControllers */,
+				D7E0FA8C297D226500F8D9A1 /* PhoneNumberControllers */,
+			);
+			path = PhoneAuthentication;
+			sourceTree = "<group>";
+		};
+		D7E0FA8C297D226500F8D9A1 /* PhoneNumberControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA8D297D22A700F8D9A1 /* CountriesSelector */,
+				D7E0FA9A297D246000F8D9A1 /* PhoneNumberController.swift */,
+				D7E0FA9C297D246D00F8D9A1 /* PhoneNumberContainerView.swift */,
+			);
+			path = PhoneNumberControllers;
+			sourceTree = "<group>";
+		};
+		D7E0FA8D297D22A700F8D9A1 /* CountriesSelector */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA97297D23F000F8D9A1 /* Cells */,
+				D7E0FA94297D230700F8D9A1 /* Model */,
+				D7E0FA8E297D22B400F8D9A1 /* Support */,
+			);
+			path = CountriesSelector;
+			sourceTree = "<group>";
+		};
+		D7E0FA8E297D22B400F8D9A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA8F297D22CB00F8D9A1 /* CallingCodes.plist */,
+				D7E0FA92297D22E200F8D9A1 /* CountriesFetcher.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D7E0FA94297D230700F8D9A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA95297D231700F8D9A1 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7E0FA97297D23F000F8D9A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA98297D240000F8D9A1 /* CountriesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D7E0FA9E297D261B00F8D9A1 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FA9F297D263B00F8D9A1 /* UserProfileController.swift */,
+				D7E0FAA1297D273F00F8D9A1 /* UserProfileContainerView.swift */,
+				D7E0FAA3297D275A00F8D9A1 /* UserProfileController+keyboardHandlers.swift */,
+				D7E0FAA5297D276F00F8D9A1 /* UserProfileAvatarOpenerDelegate.swift */,
+				D7E0FAA7297D278200F8D9A1 /* UserProfileDataDatabaseUpdater.swift */,
+				D7E0FAA9297D279C00F8D9A1 /* UserExistenceChecker.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		D7E0FAAB297D284F00F8D9A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FAAC297D285F00F8D9A1 /* CoreManagers */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E0FAAC297D285F00F8D9A1 /* CoreManagers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FAAD297D286A00F8D9A1 /* ThemeManager.swift */,
+				D7E0FAB0297D28AD00F8D9A1 /* UserDefaultsManager.swift */,
+				D7E0FAC2297E7B5100F8D9A1 /* GlobalVariables.swift */,
+			);
+			path = CoreManagers;
+			sourceTree = "<group>";
+		};
+		D7E0FAB2297D6DB500F8D9A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FAB3297D6DC100F8D9A1 /* Extension */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D7E0FAB3297D6DC100F8D9A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0FAB4297D6DDB00F8D9A1 /* UIView+Extension.swift */,
+				D7E0FAB8297D71BF00F8D9A1 /* TextField+Extension.swift */,
+				D7E0FAC0297E73E800F8D9A1 /* Label+Extension.swift */,
+				D7E0FAB6297D6DF300F8D9A1 /* String+Extension.swift */,
+				D7E0FAC4297E7DF900F8D9A1 /* ImageView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +302,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = D7E0FA3E297B28EB00F8D9A1;
 			productRefGroup = D7E0FA48297B28EC00F8D9A1 /* Products */;
@@ -150,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E0FA57297B28EE00F8D9A1 /* LaunchScreen.storyboard in Resources */,
+				D7E0FABC297E6E8C00F8D9A1 /* Localizable.strings in Resources */,
 				D7E0FA54297B28EE00F8D9A1 /* Assets.xcassets in Resources */,
+				D7E0FA90297D22CB00F8D9A1 /* CallingCodes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +333,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E0FA84297D1F4A00F8D9A1 /* VerificationContainerView.swift in Sources */,
+				D7E0FAAA297D279C00F8D9A1 /* UserExistenceChecker.swift in Sources */,
+				D7E0FAA4297D275A00F8D9A1 /* UserProfileController+keyboardHandlers.swift in Sources */,
+				D7E0FA96297D231700F8D9A1 /* Country.swift in Sources */,
+				D7E0FAB9297D71BF00F8D9A1 /* TextField+Extension.swift in Sources */,
+				D7E0FAA6297D276F00F8D9A1 /* UserProfileAvatarOpenerDelegate.swift in Sources */,
 				D7E0FA4F297B28EC00F8D9A1 /* AuthorizationVC.swift in Sources */,
+				D7E0FAB1297D28AD00F8D9A1 /* UserDefaultsManager.swift in Sources */,
+				D7E0FAC5297E7DF900F8D9A1 /* ImageView+Extension.swift in Sources */,
 				D7E0FA4B297B28EC00F8D9A1 /* AppDelegate.swift in Sources */,
+				D7E0FA99297D240000F8D9A1 /* CountriesTableViewCell.swift in Sources */,
 				D7E0FA81297C626600F8D9A1 /* GeneralTabBarController.swift in Sources */,
+				D7E0FA9D297D246D00F8D9A1 /* PhoneNumberContainerView.swift in Sources */,
+				D7E0FAA2297D273F00F8D9A1 /* UserProfileContainerView.swift in Sources */,
+				D7E0FAB7297D6DF300F8D9A1 /* String+Extension.swift in Sources */,
+				D7E0FAC3297E7B5100F8D9A1 /* GlobalVariables.swift in Sources */,
+				D7E0FAA0297D263B00F8D9A1 /* UserProfileController.swift in Sources */,
 				D7E0FA4D297B28EC00F8D9A1 /* SceneDelegate.swift in Sources */,
+				D7E0FAC1297E73E800F8D9A1 /* Label+Extension.swift in Sources */,
+				D7E0FA87297D207500F8D9A1 /* VerificationContainerView+Timer.swift in Sources */,
+				D7E0FAB5297D6DDB00F8D9A1 /* UIView+Extension.swift in Sources */,
+				D7E0FA93297D22E200F8D9A1 /* CountriesFetcher.swift in Sources */,
+				D7E0FAAE297D286A00F8D9A1 /* ThemeManager.swift in Sources */,
+				D7E0FAA8297D278200F8D9A1 /* UserProfileDataDatabaseUpdater.swift in Sources */,
+				D7E0FA89297D20B300F8D9A1 /* VerificationCodeController.swift in Sources */,
+				D7E0FA9B297D246100F8D9A1 /* PhoneNumberController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +373,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		D7E0FABE297E6E8C00F8D9A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E0FABD297E6E8C00F8D9A1 /* en */,
+				D7E0FABF297E6EA200F8D9A1 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -186,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -246,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
